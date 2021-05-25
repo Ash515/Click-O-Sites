@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Click-O-Sites</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <style>
+      /* Modal Structure */
+
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 450px;
+      }
+ #head{
+        display: block;
+        background-color: #0c0920;
+        color:white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 60px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #3c797b;
+      }
+      .btn{
+        color: #fff !important;
+        border-radius: .25rem;
+        padding: .375rem .75rem;
+        line-height: 1rem;
+        font-size: 1rem; 
+        text-align: center;
+        vertical-align: middle;
+        background-color: #007bff;
+        border: 1px solid 007bff;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+      }
+      .btn:hover{
+        color: #fff;
+        background-color: #0069d9;
+        border-color: #0062cc;
+      }
+      .flex a div{
+        visibility: hidden;
+      }
+      .flex:hover{
+        cursor: pointer;
+      }
+      .flex:hover div{
+        visibility: visible;
+      }
+      .icon{
+        width:60px;
+        height:60px;
+      }
+      .M-icon{
+        width:60px;
+        height:60px;
+      }
+     .foot{
+       display: block;
+       background-color: #07031d;
+       color:white;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 14px;
+       height:20px;
+     }
+     
+    </style>
+    
+  </head>
+
+  <body>
+    <center>
+      <div class="modal-header">
+        <h1 class="logo"><b>
+  <div id="head">Click-O-Sites</div> </b>
+        </h1>
+      </div>
+    </center>
+    <div class="modal-content">
+      <center><h3><font color="Maroon"><b><p id="title_text"><span id="name"></span>SEC Portals</p></font></h3></center>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a id="website_link" href="#!" target="_blank">
+            <img src="./images/sec icon.png" class="icon" style="color:#3c797b "></img>
+            <div>SEC Website</div>
+          </a>
+
+        </div>
+        <div class="flex">
+          <a id="deptsite_link" href="#!" target="_blank">
+            <img src="./images/dept_icon.png" class="icon" style="color:#3c797b "></img>
+            <div>Department Site</div>
+          </a>
+        </div>
+         <div class="flex">
+          <a id="MyCamu_link" href="#!" target="_blank">
+            <img src="./images/camu_icon.png" class="icon" style="color:#3c797b "></img>
+            <div>MyCamu</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="epay_link" href="#!" target="_blank">
+            <img src="./images/epay_icon.png" class="icon" style="color:#3c797b "></img>
+            <div>epay</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="hostel_link" href="#!" target="_blank">
+          <img src="./images/hostel_icon.png" class="icon" style="color:#3c797b "></img>
+            <div>Hostel</div>
+          </a>
+        </div>
+          <div class="flex">
+          <a id="sophos_link" href="#!" target="_blank">
+          <img src="./images/sophos_icon.png" class="icon" style="color:#3c797b "></img>
+            <div>Sophos</div>
+          </a>
+        </div>
+        </div>
+        <div class="modal-content"></div>
+        <div class="modal-icons">
+          <div class="flex-container">
+            <div class="flex">
+              <a id="proctor_link" href="#!" target="_blank">
+                <img src="./images/proctor.jpg" class="icon" style="color:#3c797b "></img>
+                <div>Proctor Examination</div>
+              </a></div>
+          </div>
+    </div>
+    <br><br>
+    <div class="modal-content">
+      <center><h3><font color="Maroon"><b><p id="title_text"><span id="name"></span>Moodle E-Learning</p></font></h3></center>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a id="IT_link" href="#!" target="_blank">
+            <img src="./images/IT.png" class="M-icon" style="color:#3c797b "></img>
+            <div>IT</div>
+          </a>
+        </div>
+         <div class="flex">
+          <a id="CSE_link" href="#!" target="_blank">
+            <img src="./images/cse.png" class="M-icon" style="color:#3c797b "></img>
+            <div>CSE</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="AIDS_link" href="#!" target="_blank">
+            <img src="./images/AI.png" class="M-icon" style="color:#3c797b "></img>
+            <div>AI & DS</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="ECE_link" href="#!" target="_blank">
+            <img src="./images/ece.png" class="M-icon" style="color:#3c797b "></img>
+            <div>ECE</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="EEE_link" href="#!" target="_blank">
+            <img src="./images/eee.jpg" class="M-icon" style="color:#3c797b "></img>
+            <div>EEE</div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+    <br>
+    <div class="modal-content"></div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a id="MECH_link" href="#!" target="_blank">
+            <img src="./images/mech.jpg" class="M-icon" style="color:#3c797b "></img>
+            <div>Mechanical</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="BIO_link" href="#!" target="_blank">
+            <img src="./images/biomed.png" class="M-icon" style="color:#3c797b "></img>
+            <div>Bio Medical</div>
+          </a>
+        </div>
+         <div class="flex">
+          <a id="MED_link" href="#!" target="_blank">
+            <img src="./images/medelc.png" class="M-icon" style="color:#3c797b "></img>
+            <div>Medical Electronics</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="CIVIL_link" href="#!" target="_blank">
+            <img src="./images/civil.png" class="M-icon" style="color:#3c797b "></img>
+            <div>Civil</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="AGRI_link" href="#!" target="_blank">
+            <img src="./images/agri.jpg" class="M-icon" style="color:#3c797b "></img>
+            <div>Agriculture</div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+    <br>
+    <div class="modal-content"></div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a id="EIE_link" href="#!" target="_blank">
+            <img src="./images/EIE.png" class="M-icon" style="color:#3c797b "></img>
+            <div>EIE</div>
+          </a>
+        </div>
+         <div class="flex">
+          <a id="CHEM_link" href="#!" target="_blank">
+            <img src="./images/chem.png" class="M-icon" style="color:#3c797b "></img>
+            <div>Chemical Engineering</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="MBA_link" href="#!" target="_blank">
+            <img src="./images/MBA.png" class="M-icon" style="color:#3c797b "></img>
+            <div>MBA</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="SH_link" href="#!" target="_blank">
+            <img src="./images/S&H.png" class="M-icon" style="color:#3c797b "></img>
+            <div>S&H</div>
+          </a>
+        </div>
+        <div class="flex">
+          <a id="APT_link" href="#!" target="_blank">
+            <img src="./images/Aptitude.jpg" class="M-icon" style="color:#3c797b "></img>
+            <div>Training</div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+   <br><br>
+    <center><a class="btn" role="button" href="edit.html">Edit</a></center>
+    <br>
+    <script src="popup.js"></script>
+    <div class="foot">
+      <center>Done by Ashwin :)</center>
+    </div>
+  </body>
+</html>

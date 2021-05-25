@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Click-O-Sites",
+  "description": "Quick access to SEC sites ",
+  "version": "1.0.0",
+  "icons": { "129": "./images/SEC.png" },
+  "browser_action": {
+    "default_icon": "./images/SEC.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

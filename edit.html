@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click-O-Sites: Edit Links</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>
+    <style>
+      /* Modal Structure */
+      body{
+          padding: 20px;
+      }
+      h1 {
+        font-family: "Menlo", monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #3c797b;
+      }
+      .form-control{
+          padding: 5px;
+          border-radius: 3px 3px 3px 3px;
+      }
+      .btn{
+        color: #fff !important;
+        border-radius: .25rem;
+        padding: .375rem .75rem;
+        line-height: 1rem;
+        font-size: 1rem; 
+        text-align: center;
+        vertical-align: middle;
+        background-color: #007bff;
+        border: 1px solid 007bff;
+        margin-top: .25rem;
+        margin-bottom: .25rem;
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+      }
+      .btn:hover{
+        color: #fff;
+        background-color: #0069d9;
+        border-color: #0062cc;
+      }
+      .help_link a{
+        text-decoration: none;
+      }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Click-O-Sites</h1>
+        <br>
+        <input class="form-control" id="name" type="text" placeholder="Name">
+        <br>
+        <br>
+        <input class="form-control" id="website" type="text" placeholder="Saveetha Engineering College">
+        <br>
+        <br>
+        <input class="form-control" id="deptsite" type="text" placeholder="Department Site"><br>
+        <br>
+        <input class="form-control" id="MyCamu" type="text" placeholder="MyCamu"><br>
+        <br>
+        <input class="form-control" id="epay" type="text" placeholder="E-Pay"><br>
+        <br>
+        <input class="form-control" id="hostel" type="text" placeholder="Hostel"><br>
+        <br>
+        <input class="form-control" id="sophos" type="text" placeholder="SOPHOS"><br>
+        <br>
+        <input class="form-control" id="proctor" type="text" placeholder="Proctor Examination"><br>
+        <br>
+        <input class="form-control" id="IT" type="text" placeholder="IT"><br>
+        <br>
+        <input class="form-control" id="CSE" type="text" placeholder="CSE"><br>
+        <br>
+        <input class="form-control" id="AIDS" type="text" placeholder="AI & DS"><br>
+        <br>
+        <input class="form-control" id="ECE" type="text" placeholder="ECE"><br>
+        <br>
+        <input class="form-control" id="EEE" type="text" placeholder="EEE"><br>
+        <br>
+        <input class="form-control" id="MECH" type="text" placeholder="Mechanical Engg"><br>
+        <br>
+        <input class="form-control" id="BIO" type="text" placeholder="Bio-Medical"><br>
+        <br>
+        <input class="form-control" id="MED" type="text" placeholder="Medical Electronics"><br>
+        <br>
+        <input class="form-control" id="CIVIL" type="text" placeholder="Civil Engg"><br>
+        <br>
+        <input class="form-control" id="AGRI" type="text" placeholder="Agriculture Engg"><br>
+        <br>
+        <input class="form-control" id="EIE" type="text" placeholder="EIE"><br>
+        <br>
+        <input class="form-control" id="CHEM" type="text" placeholder="Chemical Engineering "><br>
+        <br>
+        <input class="form-control" id="MBA" type="text" placeholder="MBA"><br>
+        <br>
+        <input class="form-control" id="SH" type="text" placeholder="Science & Humanities"><br>
+        <br>
+        <input class="form-control" id="APT" type="text" placeholder="Training"><br>
+        <br>
+        <button class="btn" id="save">Save</button>
+        
+        &nbsp;&nbsp;<a class="btn" role="button" href="popup.html">Back</a>
+    </center>
+    <script src="edit.js"></script>
+    <div class="help_link"><center><h3><font color="indigo"><a href="https://drive.google.com/file/d/1O1fQ9xei_q-KSqlOEefO2d4uWSFN1E29/view?usp=sharing">Click here to get links</a></font></h3></center></div>
+</body>
+</html>
