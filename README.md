@@ -7,7 +7,7 @@ Done for **Saveetha Engineering College** ❤
 - Portals
 - MyCamu 
 - LMS Moodle 
-- E payment
+- E-payment
 - Hostel portal
 - Proctor Examination
 - SOPHOS Wifi 
